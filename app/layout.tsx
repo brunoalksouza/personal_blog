@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import "../styles/globals.css";
+import Head from "./head";
 
 export default function RootLayout({
   children,
@@ -12,8 +13,8 @@ export default function RootLayout({
       <div className="text-center bg-slate-800 p-8 my-6 rounded-md">
         <Image
           src="/logo/dark.svg"
-          width={200}
-          height={200}
+          width={140}
+          height={140}
           className="mx-auto"
           alt={"logo"}
         />
@@ -28,18 +29,35 @@ export default function RootLayout({
   );
 
   const footer = (
-    <footer>
-      <div className="border-t border-slate-400 mt-12 py-6 text-center text-slate-400">
+    <footer className="bg-black w-full">
+      <div className="border-t border-slate-400 mt-12 py-8 text-center text-slate-400">
         <h3>Contact with me</h3>
         <div className="flex justify-center space-x-4 mt-4">
-          <a href="dsfsdf">
-            <Image src="/github.png" width={24} height={24} alt="github" />
+          <a
+            href="https://wa.me/553598372826"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src="/logo/whats.svg" width={24} height={24} alt="github" />
           </a>
-          <a href="dsfsdf">
-            <Image src="/linkedin.png" width={24} height={24} alt="linkedin" />
+          <a
+            href="https://github.com/brunoalksouza"
+            target="_blank"
+            rel="whatsapp"
+          >
+            <Image
+              src="\logo\github.svg"
+              width={24}
+              height={24}
+              alt="linkedin"
+            />
           </a>
-          <a href="wa.me//5535998372826">
-            <Image src="/linkedin.png" width={24} height={24} alt="ssss" />
+          <a
+            href="https://www.linkedin.com/in/brunoalksouza/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src="/logo/linkedin.svg" width={24} height={24} alt="ssss" />
           </a>
         </div>
       </div>
@@ -47,14 +65,14 @@ export default function RootLayout({
   );
 
   return (
-    <html>
-      <head />
+    <html className="bg-background-color">
+      <Head />
       <body>
         <div className="mx-auto  max-w-2xl px-6">
           {header}
           {children}
-          {footer}
         </div>
+        {footer}
       </body>
     </html>
   );

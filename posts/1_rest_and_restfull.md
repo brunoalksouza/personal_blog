@@ -19,8 +19,6 @@ No estilo REST, a implementação do cliente e do servidor pode ser feita de **f
 3. Transferência de dados entre cliente e servidor em um formato padrão, geralmente JSON ou XML.
 4. Estado da aplicação no cliente, em vez de armazená-lo no servidor.
 
----
-
 Para uma API ser considerada RESTful, ela deve atender a certos critérios adicionais além dos princípios REST.
 
 - **Interface uniforme e simples**: a API deve fornecer uma interface consistente e padronizada para acessar e manipular recursos.
@@ -35,7 +33,7 @@ Para uma API ser considerada RESTful, ela deve atender a certos critérios adici
 
 Os sistemas que seguem o paradigma REST são stateless, o que pode ser traduzido livremente como “sem estado”. Isso significa que **o servidor não precisa saber nada sobre o estado em que o cliente se encontra e vice-versa**.
 
-![[Pasted image 20231118170519.png]]
+![/posts/1.png](/posts/1/1.png)
 
 ### Cacheable
 
