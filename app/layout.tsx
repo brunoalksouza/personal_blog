@@ -11,14 +11,14 @@ export default function RootLayout({
     <header>
       <div className="text-center bg-slate-800 p-8 my-6 rounded-md">
         <Image
-          src="/logo/light.svg"
-          width={80}
-          height={80}
+          src="/logo/dark.svg"
+          width={200}
+          height={200}
           className="mx-auto"
           alt={"logo"}
         />
         <Link href="/">
-          <h1 className="text-2xl text-white font-bold mt-4">
+          <h1 className="text-2xl text-white font-bold">
             Bruno's personal technology blog
           </h1>
         </Link>

@@ -1,7 +1,7 @@
 ---
 title: "REST & RESTful"
 subtitle: "Um resumo sobre o que é REST e RESTful."
-date: "2024-02-24"
+date: "24-02-2024"
 ---
 
 ### REST - REpresentational State Tranfer
