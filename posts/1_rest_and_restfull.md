@@ -33,7 +33,7 @@ Para uma API ser considerada RESTful, ela deve atender a certos critérios adici
 
 Os sistemas que seguem o paradigma REST são stateless, o que pode ser traduzido livremente como “sem estado”. Isso significa que **o servidor não precisa saber nada sobre o estado em que o cliente se encontra e vice-versa**.
 
-![/posts/1.png](/posts/1/1.png)
+![/posts/1.png](/posts/1_rest_and_restfull/1.png)
 
 ### Cacheable
 
